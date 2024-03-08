@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.xyzbank.qa.testcases.OpenNewAccountTest">
+        <methods>
+          <include name="createAccount"/>
+          <include name="teardownBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.OpenNewAccountTest -->
+      <class name="com.xyzbank.qa.testcases.HomepageTest">
+        <methods>
+          <include name="teardownBrowser"/>
+          <include name="homePageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.HomepageTest -->
+      <class name="com.xyzbank.qa.testcases.WithdrawTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardownBrowser"/>
+          <include name="DepositMoney"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.WithdrawTest -->
+      <class name="com.xyzbank.qa.testcases.AddNewCustomerTest">
+        <methods>
+          <include name="verifyManagerLogin"/>
+          <include name="setup"/>
+          <include name="teardownBrowser"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.AddNewCustomerTest -->
+      <class name="com.xyzbank.qa.testcases.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardownBrowser"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.LoginTest -->
+      <class name="com.xyzbank.qa.testcases.DepositTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardownBrowser"/>
+          <include name="DepositMoney"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.DepositTest -->
+      <class name="com.xyzbank.qa.testcases.SearchCustomerTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifySearch"/>
+          <include name="teardownBrowser"/>
+        </methods>
+      </class> <!-- com.xyzbank.qa.testcases.SearchCustomerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

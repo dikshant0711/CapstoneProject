@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T04:41:38Z" name="Default suite" finished-at="2024-03-08T04:41:45Z" duration-ms="7494">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T04:41:38Z" name="Default test" finished-at="2024-03-08T04:41:45Z" duration-ms="7494">
+      <class name="com.xyzbank.qa.testcases.DepositTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.DepositTest@3a4621bd]" started-at="2024-03-08T10:11:38Z" name="setup" finished-at="2024-03-08T10:11:42Z" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DepositMoney()[pri:0, instance:com.xyzbank.qa.testcases.DepositTest@3a4621bd]" started-at="2024-03-08T10:11:42Z" name="DepositMoney" finished-at="2024-03-08T10:11:45Z" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositMoney -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.DepositTest@3a4621bd]" started-at="2024-03-08T10:11:45Z" name="teardownBrowser" finished-at="2024-03-08T10:11:45Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.xyzbank.qa.testcases.DepositTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
